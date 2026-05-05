@@ -1,0 +1,62 @@
+body{
+font-family:Poppins;
+margin:0;
+text-align:center;
+color:white;
+}
+
+/* Backgrounds */
+.bg-dashboard{
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url("https://images.unsplash.com/photo-1527482797697-8795b05a13fe");
+background-size:cover;
+}
+
+.bg-report{
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url("https://images.unsplash.com/photo-1500375592092-40eb2168fd21");
+background-size:cover;
+}
+
+.bg-gallery{
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url("https://images.unsplash.com/photo-1473447198196-8d0c2db43aee");
+background-size:cover;
+}
+
+.bg-map{
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url("https://images.unsplash.com/photo-1500375592092-40eb2168fd21");
+background-size:cover;
+}
+
+/* Card */
+.card{
+background:rgba(255,255,255,0.1);
+padding:20px;
+margin:20px auto;
+width:60%;
+border-radius:15px;
+animation:fadeIn 1.5s;
+}
+
+/* Table */
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th{
+background:red;
+padding:10px;
+}
+
+td{
+padding:10px;
+}
+
+/* Animation */
+@keyframes fadeIn{
+from{opacity:0;transform:translateY(20px);}
+to{opacity:1;transform:translateY(0);}
+}

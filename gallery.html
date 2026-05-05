@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Disaster Awareness Gallery</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+body{
+margin:0;
+font-family:Poppins;
+
+/* Background image + overlay */
+background:
+linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url("https://images.unsplash.com/photo-1473447198196-8d0c2db43aee");
+
+background-size:cover;
+background-position:center;
+
+color:white;
+text-align:center;
+padding:50px;
+}
+
+/* Title */
+h1{
+font-size:40px;
+margin-bottom:30px;
+}
+
+/* Button container */
+.nav{
+margin-bottom:20px;
+}
+
+/* Buttons */
+.nav a{
+display:inline-block;
+padding:12px 25px;
+margin:10px;
+background:rgba(255,255,255,0.1);
+border-radius:10px;
+text-decoration:none;
+color:white;
+font-weight:600;
+transition:0.3s;
+}
+
+/* Hover effect */
+.nav a:hover{
+background:#ff4b2b;
+transform:scale(1.05);
+}
+
+/* Iframe container */
+.frame-box{
+margin-top:20px;
+padding:20px;
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(10px);
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,0.6);
+display:inline-block;
+}
+
+/* Iframe */
+iframe{
+width:850px;
+height:450px;
+border-radius:15px;
+border:none;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>🌍 Disaster Awareness Gallery</h1>
+
+<div class="nav">
+<a href="flood.html" target="frame1">🌊 Flood</a>
+<a href="cyclone.html" target="frame1">🌪 Cyclone</a>
+</div>
+
+<div class="frame-box">
+<iframe name="frame1" src="default.html"></iframe>
+</div>
+
+</body>
+</html>
